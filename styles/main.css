@@ -2,6 +2,10 @@ section {
   display: grid;
   text-align: center;
   place-items: center;
+
+  & header h2 {
+    margin-top: .8rem;
+  }
 }
 
 #intro {
