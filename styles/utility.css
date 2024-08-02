@@ -4,11 +4,11 @@
 }
 
 .title-md {
-  font: var(--tittle-md);
+  font: var(--title-md);
 }
 
 .title-sm {
-  font: var(--tittle-sm);
+  font: var(--title-sm);
 }
 
 .text-md {
@@ -66,4 +66,20 @@
 
 .purple {
   color: var(--purple);
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-24 {
+  gap: 2.4rem;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
 }
