@@ -1,6 +1,43 @@
-.tag {
-  font: var(--text-md);
+section {
+  min-height: 100vh;
+  display: grid;
+  text-align: center;
+  place-items: center;
+}
+
+#intro {
+  padding-block: 12rem 6rem;
+  background: url(../assets/images/Background_Intro.png) center center / cover;
+}
+
+header {
+  max-width: 68rem;
+  margin-inline: auto;
+}
+
+#intro-description {
+  margin-block: 5.6rem 8rem;
+
+  h1 {
+    margin-block: .8rem 2rem;
+  }
+}
+
+#tag-container {
   display: flex;
-  align-items: center;
-  gap: .8rem;
+  gap: 1.6rem;
+  justify-content: space-between;
+
+  .tag {
+    padding: .8rem 1.6rem;
+
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+  
+    font: var(--text-md);
+    color: var(--gray-500);
+    border-radius: 999rem;
+    background-color: var(--gray-300);
+  }
 }
