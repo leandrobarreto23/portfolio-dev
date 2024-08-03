@@ -72,8 +72,24 @@
   min-height: 100vh;
 }
 
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
 .grid {
   display: grid;
+}
+
+.gap-12 {
+  gap: 1.2rem;
+}
+
+.gap-16 {
+  gap: 1.6rem;
 }
 
 .gap-24 {
@@ -82,4 +98,8 @@
 
 .grid-flow-col {
   grid-auto-flow: column;
+}
+
+.text-left {
+  text-align: left;
 }
